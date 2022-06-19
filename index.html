@@ -41,15 +41,26 @@
      Margin:0px;
      text-decoration:None;
      Font-family:Monospace;
-   } 
-  
+   }
+   #links:hover{
+     Box-shadow: 4px 5px 10px red;
+     Transition:color .5s;
+   }
+  Button{width:50px;
+    border-color:red;;
+    Text-align:center;
+  Background-color:black;
+    Color:red;
+    Display:inline;
+  } 
  </style>
  <body>
    <h1>Minhas redes sociais</h1>
    <h2>Quem sou eu?</h2>
    
-   <img src="Luz.jpg" alt="lâmpada com vela fraca">
-   <p>Meu nome é <em>Edielson Conceição Coutinho</em> Estudante livre na área de TI(tecnologia da informação), gosto de assuntos como:finanças,empreendedorismo e programação,planejo cursar ADS(Ánalise e Desenvolvimento de sistemas) </p>
+   <img id="imagem" src="Luz.jpg" alt="lâmpada com vela fraca">
+ 
+   <p>Meu nome é <em>Edielson Conceição Coutinho</em> Estudante livre na área de TI(tecnologia da informação) e busco entrar numa faculdade de Análise e desenvolvimento de sistemas.</p>
    <h3>Como falar comigo?</h3>
  
      <a id="links" href="https://github.com/Black745">Meu github</a>
@@ -58,7 +69,13 @@
    
    <h1>Links para download:</h1>
    
-     <a id="links" style="text-decoration:none;" href="Profile(1).pdf" download="Profile(1).pdf" type="application/pdf">Baixar currículo </a>
+     <a id="links" style="text-decoration:none;" href="https://github.com/Black745/Estudos-em-html/blob/gh-pages/Profile%20(1).pdf" download="Curriculo/Profile(1).pdf" type="application/pdf">Ver meu currículo</a><br>
+     <br>
+  <BUTTON  id="links" onclick="trocaimagem()">Mudar imagem</BUTTON>
+     <script>
+       function trocaimagem() {document.getElementById("imagem").src="Alx.jpg";} 
+     </script>
+     <noscript>Seu navegador não suporta ou função script está desativada. </noscript>
    
    
  </body>
