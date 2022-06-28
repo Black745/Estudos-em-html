@@ -1,0 +1,42 @@
+ *{
+   Color:white;
+   align-items:center;
+   Width:100%;
+   Font-size:50px;
+   
+   Padding:0;
+   Margin:0;
+   box-sizing:border-box;
+   Background-color:black;
+   Text-align:center;
+   
+ }
+ H2{
+   Margin-bottom:20px;
+ }
+.imagens{
+  Display:flex;
+  Flex-direction:row;
+  Margin-top:10px;
+  Margin-bottom:15px;
+  Flex-wrap:wrap;
+  Width:100%;
+  Justify-content:space-around;
+}
+.imagens a{
+  Width:45%;
+  Margin-bottom:5px;
+}
+.imagens img{
+  Width:100%;} 
+  
+  A{
+    Width:20%;
+  }
+  Img{
+    Width:150px;
+   
+      
+    }
+  
+  
