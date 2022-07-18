@@ -78,7 +78,7 @@ Section.imagens >pre{
   Background-size:cover;
 }
 #img2{
-  Background-image:url("./imagens/background002.jpg");
+  Background-image:url("/imagens/background002.jpg");
   Background-size:cover;
   Text-shadow:5px 3px #131d1f13;
 }
