@@ -78,8 +78,8 @@ Section.imagens >pre{
 }
 #img1{
   Background-image:url("./imagens/background001.jpg");
-  Background-position: right center;
-  Background-size:cover;
+  Background-position: right ;
+  Background-size:100% 100%;
 }
 #img2{
   Background-image:url("./imagens/background002.jpg");
@@ -93,6 +93,7 @@ Footer{
   Padding-left:5px;
   Color:white;
   Text-align:center;
+  Font-size:4vw;
 }
 Header a:hover,footer a:hover{
   Text-decoration:underline;
