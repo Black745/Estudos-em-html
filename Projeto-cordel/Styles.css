@@ -29,6 +29,7 @@ Header >h1{
 }
 Header >p{
   Padding-bottom:50px;
+  Font-size:3vh;
 }
 A{
   Text-decoration:none;
@@ -49,9 +50,11 @@ Section{
   Line-height:2em;
   Padding-top:10%;
   Padding-bottom:10%;
-  Font-size:25px;
+  Font-size:4.5vh;
  Padding-left:20px;
  Font-family:"mis", cursive;
+ 
+
  
 }
 
@@ -70,7 +73,8 @@ Section.imagens >pre{
   Background-color:rgba(16,28,31,0.155);
   Display:inline-block;
   Padding:5px;
-  Width:265px;
+  Width:75vw;
+  
 }
 #img1{
   Background-image:url("./imagens/background001.jpg");
