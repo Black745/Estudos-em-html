@@ -1,3 +1,17 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2? family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+@font-face {
+  Font-family:"mis",cursive;
+  Src:Url("KGMissKindergarten.ttf") format("truetype");
+}
+:root {
+  --fonte1:'Sriracha',cursive;
+  --fonte2:'Edu TAS Beginner',cursive;
+  --fonte3:verdana,geneva,tahoma,sans-serif;
+}
 *{
   Margin:0;
   Padding:0;
@@ -9,6 +23,7 @@ Header{
   Text-align:center;
 }
 Header >h1{
+  Font-size:5vh;
   Padding-top:50px;
   font-variant:small-caps;
 }
@@ -20,35 +35,62 @@ A{
   Color:white;
   Font-weight:bolder;
 } 
-PRE{
-  Font-family:Arial,helvetica,sans-serif;
-  
+
+Pre{
+ Font-family:"mis", cursive;
 }
+
 body{
-  
+  Font-family:var(--fonte3);
+  Height:100%;
   Background-color:darkgray;
 }
 Section{
   Line-height:2em;
   Padding-top:10%;
   Padding-bottom:10%;
-  Padding-left:30px;
+  Font-size:25px;
+ Padding-left:20px;
+ Font-family:"mis", cursive;
+ 
 }
+
+
 Section.normal{
   Background-color:white;
 } 
 Section.imagens{
   Background-Color:#222b2d43;
   Color:white ;
+  background-attachment:fixed;
+  box-shadow:inset 5px 5px 4px rgba(23,31,32,0.154);
+  
 }
 Section.imagens >pre{
-  Background-color:#161d1f49;
-  Width:300;
+  Background-color:rgba(16,28,31,0.155);
+  Display:inline-block;
+  Padding:5px;
+  Width:265px;
+}
+#img1{
+  Background-image:url("./imagens/background001.jpg");
+  Background-position: right center;
+  Background-size:cover;
+}
+#img2{
+  Background-image:url("./imagens/background002.jpg");
+  Background-size:cover;
+  Text-shadow:5px 3px #131d1f13;
 }
 Footer{
   Background-color:#090c0c;
-  Padding:10px;
+  Padding-top:10px;
+  Padding-bottom:10px;
+  Padding-left:5px;
   Color:white;
   Text-align:center;
-} 
+}
+Header a:hover,footer a:hover{
+  Text-decoration:underline;
+}
   
